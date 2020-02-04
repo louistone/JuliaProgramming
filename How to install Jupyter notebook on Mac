@@ -1,0 +1,12 @@
+sudo rm -rf /Library/Frameworks/Python.framework
+rm /usr/local/bin/python3*
+brew uninstall python3
+brew install python3
+which python3
+sudo python3 -m pip install --upgrade pip
+sudo python3 -m pip install jupyter
+which jupyter
+jupyter notebook
+
+From this guy: https://github.com/sercretalphabets
+Reference: https://github.com/jupyter/help/issues/89
